@@ -1,0 +1,120 @@
+.logo {   
+    position: relative;
+    max-width: 100px;
+    border-radius: 35%;
+    padding: 5px;
+    max-height: 90px;
+    margin:5px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.general{
+    background-color: #182C64;
+    box-shadow: 0 4px 15px rgba(0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-weight: 700;
+    color:bisque;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+header{
+width: 100%;
+display: flex;
+justify-content: space-between;
+height: 110px;
+align-items: center;
+}
+nav{
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    padding: 5px;
+    margin: 16px 25px 16px 16px;
+    font-size: 30px;
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+}
+#input_search{
+    
+    padding: 5px;
+    background-color: white;
+    width: 225px;
+    height: 32px;
+    border-radius: 30px;
+   
+    border:none;
+    box-shadow: 0 4px 2px rgba(0, 0, 0.7);
+}
+#btn_search{
+    position: absolute;
+    background-color: white;
+    padding: 5px;
+    top: 39px;
+    left: 1117px;
+    height: 32px;
+    width:  50px;
+    border: none;
+    border-radius: 30px;
+}
+#btn_logout{
+
+
+    position:relative;
+    left: 500px;
+    
+    border: none;
+   
+}
+#btn_admin{
+
+    position:relative;
+    left: 460px;
+
+    border: none;
+   
+}
+
+
+i{
+    font-size: 25px;
+}
+#btn_connection{
+   
+    background-color: white;
+    border: none;
+    width: 120px;
+    height: 32px;
+    box-shadow: 0 4px 2px rgba(0, 0, 0.7);
+    border-radius: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    
+
+}
+
+nav a::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background-color: skyblue;
+    display: block;
+    transition: 0.9s;
+
+}
+nav a:hover::after{
+    
+    width: 60%;
+
+}

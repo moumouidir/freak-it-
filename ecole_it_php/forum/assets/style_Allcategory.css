@@ -1,0 +1,51 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(./img_forum/pexels-photo-65767.jpeg);
+    background-size: cover;/ */
+  } 
+  
+  /* Form styles */
+  
+  .tab {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 35px;
+    background-color:#186164;
+    border-radius: 5%;
+  }
+  
+  .tab th, .tab td {
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .tab tr:nth-child(even) {
+    background-color: #eee;
+  }
+  
+  
+  .checkbox {
+    margin-left: 10px;
+  }
+  
+  /* Button styles */
+  
+  #btn_del {
+    background-color:#182C64;
+    
+    color: bisque;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 15%;
+    width: 150px;
+  }

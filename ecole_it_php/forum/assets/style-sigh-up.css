@@ -1,0 +1,156 @@
+*{
+    
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+section .img-fond{
+    position: relative;
+    width: 50%;
+    height: 100%;
+   
+
+}
+section .img-fond::before{
+    content: "";
+    position:absolute;
+    top: 0px;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(225deg,#e91e63,#03a9f4);
+    z-index: 1;
+    mix-blend-mode:screen ;
+}
+section .img-fond img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+   
+    
+}
+section .content-box{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+section .content-box .form-box{
+    width: 50%;
+
+}
+section .content-box .form-box h2{
+    font-size: 35px;
+    color: #182C64;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    border-bottom: 5px solid #ff4548;
+    display: inline-block;
+    letter-spacing: 1px;
+    
+
+}
+section .content-box .form-box .input-box{
+    margin-bottom: 20px;
+}
+
+
+section .content-box .form-box .input-box span{
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: 300;
+    color:  #182C64;;
+    letter-spacing: 1px;
+}
+section .content-box .form-box .input-box input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    /* L'outline est une ligne qui est dessinée autour d'un élément lorsque
+     le pointeur de la souris est sur l'élément. */
+    font-weight: 400;
+    border: 1px solid #607d86 ;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #182C64;;
+    background:transparent;
+    border-radius: 30px;
+}
+
+section .content-box .form-box .input-box input[type="submit"]{
+    background:#182C64 ;
+    color: bisque;
+    outline: none;
+    border: none;
+    font-weight: 5OO;
+    cursor: pointer;
+
+}
+section .content-box .form-box .input-box input[type="submit"]:hover{
+    background:#040312 ;
+
+}
+section .content-box .form-box .remenber-forget{
+    margin-bottom: 10px;
+    color: #182C64;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+section .content-box .form-box .register-link {
+    margin-bottom: 10px;
+    color: #182C64;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+#icone-user{
+    position: absolute;
+    right: 200px;
+    top:315px;
+}
+#icone-lock
+{
+    position: absolute;
+    right: 200px;
+    top:413px;
+}
+
+
+@media (maxwith:600px){
+    section .img-fond{
+        position: absolute;
+        top :0;
+        left:0;
+        width: 100%;
+        height: 100%;
+        
+    }
+    section .content-box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    }
+    section .content-box .form-box{
+        width: 100%;
+        padding: 40px;
+        background: rgb(255 255 255 /0.9);
+        margin: 50px;
+    }
+
+    
+}

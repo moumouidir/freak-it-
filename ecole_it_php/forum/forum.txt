@@ -1,0 +1,15 @@
+inscription doit contenir :
+pseudo(unique)
+courriel(unique)
+mot de passe (hache avant etre stoque dans base ) 
+date de naissance(obligatoire)
+role(par defaur utilisateur ou administrateur 
+ et peut avoir les deux role)
+statut du compte(actif ou non)
+
+connection
+publier une question( titre , categorie (dans liste 
+des categorie),messages)
+modifier une question
+supprimer une question
+rechercher 

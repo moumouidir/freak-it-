@@ -1,0 +1,60 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url(./img_forum/halllowen.jpg);
+    background-size: cover;
+}
+  
+  h2, p {
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+    
+  .contenair {
+    width: 80%; 
+    margin: 0 auto;
+    
+  }
+  label{
+    color: bisque;
+  }
+  
+  textarea {
+    width: 98%;
+    height: 175px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #btn_answer {
+    background-color:#182C64;
+    color:bisque;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #error {
+    color: red; 
+  }
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+   
+  }
+  
+  .message {
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: bisque;
+    border-radius: 5%;
+  }
+  
+  .message p {
+    margin-bottom: 0.5rem; 
+  }
+  
+  
